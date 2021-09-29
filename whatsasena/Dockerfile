@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN https://github.com/Emmanuelsaji123/pikachu.git/pikachu /root/WhatsAsenaDuplicated
+RUN https://github.com/Emmanuelsaji123/pikachu/root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
